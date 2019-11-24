@@ -1,5 +1,6 @@
 // This pulls in thr utils
 const utils = require('../app/bookshop_utils');
+
 // Original code given to us - adds VAT
 describe("utils.addVAT", () => {
   test("returns 36 when passed 30", () => {
@@ -19,8 +20,7 @@ describe("utils.addVAT", () => {
 /* 4) Write a new test for a function called getFullName
 Add a new test that will check the behaviour of a getFullName function.
 This function takes 2 arguments, a first name and a last name, and 
-returns the full name as a single string.
- */
+returns the full name as a single string.*/
 
 describe("utils.getFullName", () => {
   test("returns Susan Jason when passed Susan and Jason", () => {
@@ -91,8 +91,7 @@ getTotalOrderPrice function.
 This function receives 2 arguments, a price and a quantity. 
 The function should multiply the price of the book being ordered by the 
 quantity desired, and then apply a VAT of 20% to the total order.
-It should return the total price with VAT applied.
-*/
+It should return the total price with VAT applied. */
 
 describe('utils.getTotalOrderPrice', () => {
   test ('If item £20, total is £24 including VAT', () => {
